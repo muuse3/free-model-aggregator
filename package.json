@@ -1,0 +1,13 @@
+{
+  "name": "free-model-aggregator",
+  "version": "1.0.0",
+  "description": "OpenAI/Anthropic-compatible API server routing to OpenRouter free models",
+  "main": "main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types main.ts",
+    "dev": "node --watch --experimental-strip-types main.ts"
+  },
+  "dependencies": {},
+  "engines": { "node": ">=22.0.0" }
+}
